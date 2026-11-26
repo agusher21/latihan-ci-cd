@@ -1,0 +1,12 @@
+{
+  "name": "latihan-ci-cd",
+  "version": "1.0.0",
+  "description": "Proyek latihan Lesson 55 — CI/CD dengan GitHub Actions (Coder Academy)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/sum.test.js",
+    "build": "node build.js"
+  },
+  "author": "Toni",
+  "license": "MIT"
+}
