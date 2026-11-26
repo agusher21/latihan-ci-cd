@@ -5,7 +5,7 @@ const { sum } = require('../src/sum');
 
 describe('sum', () => {
   it('menjumlahkan dua bilangan positif', () => {
-    assert.equal(sum(2, 3), 5);
+    assert.equal(sum(2, 3), 6); // SENGAJA DIRUSAK — latihan Lesson 55 langkah 4
   });
 
   it('menjumlahkan bilangan negatif', () => {
